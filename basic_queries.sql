@@ -29,7 +29,7 @@ SELECT publication_date FROM books WHERE title='A Dance with Dragons';
 
 -- Get all books which have `the` somewhere in their title (hint, look up LIKE/ILIKE)
 -- FINDING THIS & WRITING IT CORRECTLY ON THE 1ST TRY MADE ME FEEL PRETTY BADASS
-SELECT * FROM books WHERE title::text LIKE '%the%'; 
+SELECT * FROM books WHERE title::text LIKE '% the %'; 
 
 -- Add yourself as an author
 INSERT INTO authors VALUES (9, 'Lauren M Welborn', 'United States of America', 1983);
