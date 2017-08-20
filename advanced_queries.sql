@@ -2,6 +2,7 @@
 -- For all of these queries, you SHOULD NOT use an id # in a WHERE clause
 
 -- Find all fields (book and author related) for all books written by George R.R. Martin.
+SELECT * FROM authors, books WHERE name='George R.R. Martin';
 
 -- Find all fields (book and author related) for all books written by Milan Kundera.
 
